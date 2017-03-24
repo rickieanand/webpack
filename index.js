@@ -1,6 +1,17 @@
-console.log('Hello')
-document.getElementById('app').addEventListener('click', function(e){
-    require.ensure([], function(require){
-        require('./app.js')
-    }, 'appView')
-})
+/**
+ * 
+ * 
+ * */
+import React from 'react'
+import ReactDOM from 'react-dom'
+/**
+ * 
+ * 
+ * */
+import App from './src/app'
+
+
+ReactDOM.render(
+    <App />,
+  document.getElementById('app')
+)

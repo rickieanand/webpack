@@ -1,1 +1,1 @@
-alert('from app.js')
+console.log('from app.js')
